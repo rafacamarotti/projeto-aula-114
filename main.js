@@ -1,7 +1,7 @@
 noseX=0;
 noseY=0;
 function preload(){
-    clown_nose = loadImage('oculos.png');
+    clown_nose = loadImage('chapeu.png');
 }
 function setup(){
     canvas=createCanvas(300, 300);
