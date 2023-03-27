@@ -23,7 +23,7 @@ function gotPoses(results){
  }
 }
 function draw(){
-    image(video, 0, 0, 500, 300);
+    image(video, 0, 0, 300, 150);
     image(clown_nose, noseX, noseY, 200, 150);
 }
 function take_snapshot(){
