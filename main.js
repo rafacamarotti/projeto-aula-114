@@ -24,7 +24,7 @@ function gotPoses(results){
 }
 function draw(){
     image(video, 0, 0, 300, 300);
-    image(clown_nose, noseX, noseY, 200, 100);
+    image(clown_nose, noseX, noseY, 200, 20);
 }
 function take_snapshot(){
     save('myFilterImage.png');
