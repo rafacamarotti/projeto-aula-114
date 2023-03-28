@@ -23,8 +23,8 @@ function gotPoses(results){
  }
 }
 function draw(){
-    image(video, 0, 0, 300, 150);
-    image(clown_nose, noseX, noseY, 200, 150);
+    image(video, 0, 0, 300, 300);
+    image(clown_nose, noseX, noseY, 200, 100);
 }
 function take_snapshot(){
     save('myFilterImage.png');
