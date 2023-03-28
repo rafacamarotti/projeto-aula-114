@@ -19,12 +19,12 @@ function gotPoses(results){
  if(results.length >0){
     console.log(results);
     noseX = results[0].pose.nose.x-100;
-    noseY = results[0].pose.nose.y-75;
+    noseY = results[0].pose.nose.y-55;
  }
 }
 function draw(){
     image(video, 0, 0, 300, 300);
-    image(clown_nose, noseX, noseY, 200, 20);
+    image(clown_nose, noseX, noseY, 150, 200);
 }
 function take_snapshot(){
     save('myFilterImage.png');
